@@ -1,0 +1,3 @@
+(Part1 )LinearSolverDeluxe bizden implement etmemizin istendiði intellij projesidir.
+(Part2 )Observer ise diagramlarý yapabilmek için yapmýþ olduðun bir projedir. 
+Implement etmemiz istenmemesine raðmen deneme amaçlý implementini gerçekleþtirdim.
