@@ -1,0 +1,1 @@
+javac Part2\Client\ClientMain.java Part2\Client\ClientGUI.java Part2\Server\BulutCizgeGraphService.java Part2\Server\GraphServiceInvocationHandler.java Part2\Server\MatrixGraph.java Part2\Server\Register.java Part2\Server\ServerMain.java

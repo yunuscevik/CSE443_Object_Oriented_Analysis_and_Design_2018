@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Part2.Client.ClientGUI">
+  <grid id="27dc6" binding="card" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="21" width="811" height="304"/>
+    </constraints>
+    <properties>
+      <background color="-6822670"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="34a7b" class="javax.swing.JTextField" binding="cardNumberTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="253" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="19012" class="javax.swing.JTextField" binding="usernameField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="253" height="26"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="33d08" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Card No"/>
+        </properties>
+      </component>
+      <component id="dd1a2" class="javax.swing.JTextField" binding="creditField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="253" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="10"/>
+        </properties>
+      </component>
+      <component id="d5a75" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Credit"/>
+        </properties>
+      </component>
+      <component id="c579" class="javax.swing.JButton" binding="loadCreditButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="253" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1868261"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="Load Credit"/>
+        </properties>
+      </component>
+      <component id="46715" class="javax.swing.JButton" binding="registerButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="253" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1844069"/>
+          <font style="1"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="59b4f" class="javax.swing.JButton" binding="incidenceMatrixButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14785053"/>
+          <enabled value="false"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="Incidence Matrix"/>
+        </properties>
+      </component>
+      <component id="ff0d" class="javax.swing.JButton" binding="minimumSpanningTreeButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14785053"/>
+          <enabled value="false"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="Minimum Spanning Tree"/>
+        </properties>
+      </component>
+      <component id="214a" class="javax.swing.JButton" binding="showGraphButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15015026"/>
+          <enabled value="false"/>
+          <font style="1"/>
+          <text value="Show Graph"/>
+        </properties>
+      </component>
+      <component id="28d76" class="javax.swing.JButton" binding="createGraphButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-15015026"/>
+          <enabled value="false"/>
+          <font style="1"/>
+          <text value="Create Graph"/>
+        </properties>
+      </component>
+      <component id="b604d" class="javax.swing.JButton" binding="currentCreditButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1844069"/>
+          <font style="1"/>
+          <text value="Current Credit"/>
+        </properties>
+      </component>
+      <component id="18c43" class="javax.swing.JLabel" binding="creditBalance">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2c25c" class="javax.swing.JButton" binding="showAccountsButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1844069"/>
+          <font style="1"/>
+          <text value="Show Accounts"/>
+        </properties>
+      </component>
+      <component id="e8d1f" class="javax.swing.JButton" binding="browseGraph">
+        <constraints>
+          <grid row="0" column="3" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1882793"/>
+          <font style="1"/>
+          <foreground color="-1"/>
+          <text value="BROWSE GRAPH FILE"/>
+        </properties>
+      </component>
+      <component id="8c5f4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="58" height="26"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="   User Name"/>
+        </properties>
+      </component>
+      <scrollpane id="3b1f2">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="300"/>
+            <preferred-size width="-1" height="300"/>
+            <maximum-size width="-1" height="300"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="435c7" class="javax.swing.JTextArea" binding="responseArea">
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-2031629"/>
+              <editable value="false"/>
+              <font style="1"/>
+              <lineWrap value="false"/>
+              <margin top="10" left="50" bottom="0" right="50"/>
+              <minimumSize width="0" height="17"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
